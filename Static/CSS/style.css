@@ -1,0 +1,372 @@
+.banner {
+    position: relative ; width: 90%;
+    margin: 0 auto;
+    padding-top:  30px;
+    align-self: center;
+    display: flow-root;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    width: 90%;
+}
+.navbar {
+    display: flex;
+    
+}
+.container {
+    display: flex;
+    padding-top: 10px;
+}
+.nav-items {
+    padding-left: 190px;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 580px;
+    font-family: 'Red Rose', cursive;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: black;
+    padding-top: 7px;
+    cursor: pointer;
+   
+}
+
+.search-container {
+    border-radius: 4px;
+    border: 2px solid #4B4B4B;
+    align-items: center;
+    justify-content: flex-end;
+    width: 400px;
+    height: 35px;
+    display: flex;
+    margin-top: 9px;
+ 
+}
+
+nav {
+    width: 600px;
+}
+
+input[type="text"] {
+    border-style: none;
+    width: 180px;
+    height: 30px;
+}
+
+i.fa-solid.fa-magnifying-glass {
+   width: 20px;
+    display: flex;
+}
+
+input[type="text"] {
+    margin-right: 180px;
+    padding-left: 10px;
+}
+.horizont {
+    border: 1.3px solid black;
+ margin-top: 20px;
+  
+}
+.nav-items a {
+    text-decoration: none;
+    font-family: 'Red Rose', cursive;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: black;
+    padding-top: 7px;
+}
+.header-item {
+    font-weight: bold;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-family: 'Rufina', serif;
+}
+
+.topics {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    padding-top: 20px;
+    padding-left: 350px;
+}
+
+.topic-border {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    border-radius: 8px;
+    width: 80px;
+    align-items: center;
+    height: 30px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.topic-border p {
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    font-family: 'Red Hat Display', sans-serif;
+    cursor: pointer;
+}
+.banner-topic {
+    position: absolute;
+    top: 240px;
+    padding: 10px;
+    color: white;
+    left: 535px;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.banner-topic span {
+    text-transform: lowercase;
+}
+.banner-bar {
+    opacity: 1;
+    backface-visibility: visible;
+    cursor: pointer;
+}
+
+.banner-bar :hover{
+    opacity: 0.5;
+}
+
+.cards {
+    justify-content: space-between;
+    display: flex;
+    width: 1200px;
+}
+.cards-two {
+
+        justify-content: space-between;
+        display: flex;
+        width: 1200px;
+}
+
+.cards {
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+.cards-two {
+    padding-top: 5%;
+    padding-left: 10%;
+   
+}
+.color-names {
+    display: flex;
+    justify-content: space-around;
+    color: #5A5A5A;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size:  10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.color-container {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    cursor: pointer;
+}
+.color-container {
+    opacity: 1;
+    backface-visibility: visible;
+    cursor: pointer;
+}
+
+.color-container :hover{
+    opacity: 0.5;
+}
+
+.card-box {
+    opacity: 1;
+    backface-visibility: visible;
+    cursor: pointer;
+}
+
+.card-box :hover{
+    opacity: 0.5;
+}
+
+.card-one {
+    position: relative;
+    width: 260px;
+}
+
+.section-one {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.img-one {
+    display: block;
+    width: 100%;
+}
+.color-one {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(220, 226, 226) ;
+    font-family: 'Red Hat Display', sans-serif;
+    color: rgb(249, 248, 248);
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.card-one {
+    opacity: 1;
+    backface-visibility: visible;
+    cursor: pointer;
+}
+.card-one :hover {
+    opacity: 0.5;
+}
+
+
+.card-two_ {
+    position: relative;
+    width: 260px;
+}
+
+.img-two {
+    display: block;
+    width: 100%;
+}
+
+.color-two{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(99, 101, 101) ;
+    font-family: 'Red Hat Display', sans-serif;
+    color: rgb(249, 248, 248);
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.card-two_ {
+    opacity: 1;
+    backface-visibility: visible;
+    cursor: pointer;
+}
+.card-two_ :hover {
+    opacity: 0.5;
+}
+
+
+
+.card-three_ {
+    position: relative;
+    width: 260px;
+}
+
+.img-three {
+    display: block;
+    width: 100%;
+}
+
+.color-three{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(99, 101, 101) ;
+    font-family: 'Red Hat Display', sans-serif;
+    color: rgb(249, 248, 248);
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.card-three_ {
+    opacity: 1;
+    backface-visibility: visible;
+    cursor: pointer;
+}
+.card-three_ :hover {
+    opacity: 0.5;
+}
+
+
+
+
+.card-four_ {
+    position: relative;
+    width: 260px;
+}
+
+.img-four {
+    display: block;
+    width: 100%;
+}
+
+.color-four{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(99, 101, 101) ;
+    font-family: 'Red Hat Display', sans-serif;
+    color: rgb(249, 248, 248);
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.card-four_ {
+    opacity: 1;
+    backface-visibility: visible;
+    cursor: pointer;
+}
+.card-four_ :hover {
+    opacity: 0.5;
+}
+.color-id {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Red Hat Display', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.like-icons {
+    size: 19px;
+    color: #202020;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.save-icons {
+    word-spacing: 15px;
+}
+.section-two {
+    padding-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.section-three {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 50px;
+}
